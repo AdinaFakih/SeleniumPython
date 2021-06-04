@@ -1,0 +1,30 @@
+1622613440070	geckodriver	INFO	Listening on 127.0.0.1:54669
+1622613649124	geckodriver	INFO	Listening on 127.0.0.1:50451
+1622614236496	geckodriver	INFO	Listening on 127.0.0.1:64666
+1622614239945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\addyf\\AppData\\Local\\Temp\\rust_mozprofileKzYo94"
+1622614241177	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\addyf\\AppData\\Local\\Temp\\rust_mozprofileKzYo94\\search.json.mozlz4", (void 0)))
+1622614246717	Marionette	INFO	Listening on port 64674
+1622614247292	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622614253792	Marionette	INFO	Stopped listening on port 64674
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622615289320	geckodriver	INFO	Listening on 127.0.0.1:60386
+1622615292385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\addyf\\AppData\\Local\\Temp\\rust_mozprofileG5iRff"
+1622615293604	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\addyf\\AppData\\Local\\Temp\\rust_mozprofileG5iRff\\search.json.mozlz4", (void 0)))
+1622615300569	Marionette	INFO	Listening on port 60394
+1622615301655	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622615306068	Marionette	INFO	Stopped listening on port 60394
+JavaScript error: https://www.google.com/adsense/domains/caf.js, line 35: uncaught exception: google.ads.domains.Caf: a is null
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\addyf\AppData\Local\Temp\rust_mozprofileG5iRff\protections.sqlite
+1622615693769	geckodriver	INFO	Listening on 127.0.0.1:57448
+1622615696815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\addyf\\AppData\\Local\\Temp\\rust_mozprofileZIbtEA"
+1622615697743	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\addyf\\AppData\\Local\\Temp\\rust_mozprofileZIbtEA\\search.json.mozlz4", (void 0)))
+1622615702490	Marionette	INFO	Listening on port 57456
+1622615702671	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1622615751010	Marionette	INFO	Stopped listening on port 57456
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 687))
