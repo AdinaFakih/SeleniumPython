@@ -10,4 +10,4 @@ driver.find_element_by_name("userName").send_keys("mercury")
 driver.find_element_by_name("password").send_keys("mercury")
 driver.find_element_by_name("submit").click()
 time.sleep(2)
-driver.close() #close browser
+driver.close() #close browser                                                                                                                                                                   
