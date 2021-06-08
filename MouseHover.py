@@ -15,4 +15,5 @@ users = driver.find_element_by_xpath('/html/body/div[1]/div[2]/ul/li[1]/ul/li[1]
 actions = ActionChains(driver)
 actions.move_to_element(admin).move_to_element(user_management).move_to_element(users).click().perform()
 
-
+time.sleep(2)
+driver.quit()
